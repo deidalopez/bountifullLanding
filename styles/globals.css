@@ -14,3 +14,134 @@ a {
 * {
   box-sizing: border-box;
 }
+
+
+.section {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  position: relative;
+}
+
+.textContainer {
+  width: 457px;
+  font-size: 45px;
+}
+
+.mintBar {
+  width: 100vw;
+  background-color: #A8DDA8;
+}
+
+.intro {
+  width: 100%;
+  margin-top: 3em;
+  padding: 1em;
+  background-color: #A8DDA8
+}
+
+.text {
+  height: 90%;
+  font-size: 28px;
+  color: white;
+  font-weight: 400;
+  width: 40%;
+  text-align: right;
+}
+
+.darkSpan {
+  color: #07426D;
+  font-weight: 500;
+}
+.heroContent {
+  width: 80%;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer {
+  width: 20vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.image {
+  margin: 10px;
+}
+
+.darkblueText {
+  color: #07426D
+}
+
+.video {
+  margin-top: 4em;
+  margin: auto
+}
+
+.contactSection {
+  width: 100%;
+  height: 200px;
+  background-color: #A8DDA8;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#contactText {
+  color:#07426D;
+  font-size: 25px;
+  margin-bottom: .3em;
+}
+
+.contactForm {
+  padding: .8em;
+  display: flex;
+  flex-direction: row;
+}
+
+#email {
+  height: 30px;
+  width: 250px;
+  border: none;
+}
+
+#email::placeholder {
+  color: #BABABA;
+  padding-left: 1em;
+}
+
+.contactButton {
+  background-color: #07426D;
+  height: 30px;
+  color: white;
+  border: none;
+  padding: .18em 1em;
+}
+
+@media only screen and (max-width: 600px) {
+  .video {
+    display: none;
+  }
+
+  .footer {
+    width: 200px;
+    margin: auto;
+    align-content: space-between;
+  }
+  
+  .heroContent {
+    align-items: center;
+    padding-left: 2em;
+    flex-direction:column-reverse;
+  }
+
+  .text {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    padding-top: 1em;
+  }
+}
